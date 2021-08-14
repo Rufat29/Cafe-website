@@ -1,0 +1,52 @@
+@media only screen and (max-width: 768px){
+    /* Navigation Bar */
+
+.logo1{
+    padding:0 5px 0 0;
+}
+.profile{
+    padding:0 0 0 5px;
+}
+}
+@media only screen and (max-width: 576px){
+    /* Navigation Bar */
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 15px 0;
+}
+.btn{
+    margin: auto;
+}
+.logo1{
+    padding:15px 0;
+    text-align: center;
+}
+.profile{
+    padding:15px 0;
+    display: flex;
+    flex-direction: row;
+}
+.food-card-inner{
+    width: 70%;
+    margin: auto;
+}
+.pop-food{
+    text-align: center;
+}
+.footer-text{
+    margin: auto;
+    width: 70% !important;
+    padding: 20px 0;
+}
+.footer-text p{
+    text-align: center;
+
+}
+.footer-text i{
+   
+    margin: 0 10px;
+}
+}
